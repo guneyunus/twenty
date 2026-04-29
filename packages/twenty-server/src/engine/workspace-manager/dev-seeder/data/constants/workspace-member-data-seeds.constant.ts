@@ -43,8 +43,8 @@ export const RANDOM_WORKSPACE_MEMBER_IDS = randomWorkspaceMemberIds;
 const originalWorkspaceMembers: WorkspaceMemberDataSeed[] = [
   {
     id: WORKSPACE_MEMBER_DATA_SEED_IDS.TIM,
-    nameFirstName: 'Tim',
-    nameLastName: 'Apple',
+    nameFirstName: 'Referansal',
+    nameLastName: 'Sales',
     locale: 'en',
     colorScheme: 'Light',
     userEmail: 'tim@apple.dev',
@@ -52,8 +52,8 @@ const originalWorkspaceMembers: WorkspaceMemberDataSeed[] = [
   },
   {
     id: WORKSPACE_MEMBER_DATA_SEED_IDS.JONY,
-    nameFirstName: 'Jony',
-    nameLastName: 'Ive',
+    nameFirstName: 'CRM',
+    nameLastName: 'Ops',
     locale: 'en',
     colorScheme: 'Light',
     userEmail: 'jony.ive@apple.dev',
@@ -61,8 +61,8 @@ const originalWorkspaceMembers: WorkspaceMemberDataSeed[] = [
   },
   {
     id: WORKSPACE_MEMBER_DATA_SEED_IDS.PHIL,
-    nameFirstName: 'Phil',
-    nameLastName: 'Schiler',
+    nameFirstName: 'TEAM',
+    nameLastName: 'Lead',
     locale: 'en',
     colorScheme: 'Light',
     userEmail: 'phil.schiler@apple.dev',
@@ -70,8 +70,8 @@ const originalWorkspaceMembers: WorkspaceMemberDataSeed[] = [
   },
   {
     id: WORKSPACE_MEMBER_DATA_SEED_IDS.JANE,
-    nameFirstName: 'Jane',
-    nameLastName: 'Austen',
+    nameFirstName: 'Growth',
+    nameLastName: 'Desk',
     locale: 'en',
     colorScheme: 'Light',
     userEmail: 'jane.austen@apple.dev',
@@ -93,7 +93,7 @@ export const getWorkspaceMemberDataSeeds = (
   }
 
   if (workspaceId === SEED_APPLE_WORKSPACE_ID) {
-    // Apple workspace gets all workspace members (original + random)
+    // Referansal demo workspace gets all workspace members (original + random)
     return WORKSPACE_MEMBER_DATA_SEEDS;
   } else if (workspaceId === SEED_YCOMBINATOR_WORKSPACE_ID) {
     // YC workspace gets all 4 original workspace members

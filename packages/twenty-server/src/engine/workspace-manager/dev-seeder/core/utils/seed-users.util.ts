@@ -24,8 +24,8 @@ export const seedUsers = async ({ queryRunner, schemaName }: SeedUsersArgs) => {
   const originalUsers = [
     {
       id: USER_DATA_SEED_IDS.TIM,
-      firstName: 'Tim',
-      lastName: 'Apple',
+      firstName: 'Referansal',
+      lastName: 'Sales',
       email: 'tim@apple.dev',
       passwordHash:
         '$2b$10$3LwXjJRtLsfx4hLuuXhxt.3mWgismTiZFCZSG3z9kDrSfsrBl0fT6', // tim@apple.dev
@@ -35,8 +35,8 @@ export const seedUsers = async ({ queryRunner, schemaName }: SeedUsersArgs) => {
     },
     {
       id: USER_DATA_SEED_IDS.JONY,
-      firstName: 'Jony',
-      lastName: 'Ive',
+      firstName: 'CRM',
+      lastName: 'Ops',
       email: 'jony.ive@apple.dev',
       passwordHash:
         '$2b$10$3LwXjJRtLsfx4hLuuXhxt.3mWgismTiZFCZSG3z9kDrSfsrBl0fT6', // tim@apple.dev
@@ -46,8 +46,8 @@ export const seedUsers = async ({ queryRunner, schemaName }: SeedUsersArgs) => {
     },
     {
       id: USER_DATA_SEED_IDS.PHIL,
-      firstName: 'Phil',
-      lastName: 'Schiler',
+      firstName: 'TEAM',
+      lastName: 'Lead',
       email: 'phil.schiler@apple.dev',
       passwordHash:
         '$2b$10$3LwXjJRtLsfx4hLuuXhxt.3mWgismTiZFCZSG3z9kDrSfsrBl0fT6', // tim@apple.dev
@@ -57,8 +57,8 @@ export const seedUsers = async ({ queryRunner, schemaName }: SeedUsersArgs) => {
     },
     {
       id: USER_DATA_SEED_IDS.JANE,
-      firstName: 'Jane',
-      lastName: 'Austen',
+      firstName: 'Growth',
+      lastName: 'Desk',
       email: 'jane.austen@apple.dev',
       passwordHash:
         '$2b$10$3LwXjJRtLsfx4hLuuXhxt.3mWgismTiZFCZSG3z9kDrSfsrBl0fT6', // tim@apple.dev

@@ -94,8 +94,8 @@ export class DevSeederPermissionsService {
           ...Object.values(RANDOM_USER_WORKSPACE_IDS),
         ];
       } else {
-        adminUserWorkspaceId = USER_WORKSPACE_DATA_SEED_IDS.JANE;
-        limitedUserWorkspaceId = USER_WORKSPACE_DATA_SEED_IDS.TIM;
+        adminUserWorkspaceId = USER_WORKSPACE_DATA_SEED_IDS.TIM;
+        limitedUserWorkspaceId = USER_WORKSPACE_DATA_SEED_IDS.JANE;
         guestUserWorkspaceId = USER_WORKSPACE_DATA_SEED_IDS.PHIL;
         memberUserWorkspaceIds = [
           USER_WORKSPACE_DATA_SEED_IDS.JONY,

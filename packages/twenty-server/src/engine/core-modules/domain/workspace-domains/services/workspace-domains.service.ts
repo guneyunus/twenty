@@ -12,6 +12,8 @@ import { TwentyConfigService } from 'src/engine/core-modules/twenty-config/twent
 import { WorkspaceEntity } from 'src/engine/core-modules/workspace/workspace.entity';
 import { WorkspaceNotFoundDefaultError } from 'src/engine/core-modules/workspace/workspace.exception';
 
+const APPLE_SEED_WORKSPACE_ID = '20202020-1c25-4d02-bf25-6aeccf7ea419';
+
 @Injectable()
 export class WorkspaceDomainsService {
   constructor(
@@ -75,6 +77,14 @@ export class WorkspaceDomainsService {
       Logger.warn(
         ` ${workspaces.length} workspaces found in database. In single-workspace mode, there should be only one workspace. Apple seed workspace will be used as fallback if it found.`,
       );
+
+      const seedWorkspace = workspaces.find(
+        (workspace) => workspace.id === APPLE_SEED_WORKSPACE_ID,
+      );
+
+      if (isDefined(seedWorkspace)) {
+        return seedWorkspace;
+      }
     }
 
     const foundWorkspace = workspaces[0];

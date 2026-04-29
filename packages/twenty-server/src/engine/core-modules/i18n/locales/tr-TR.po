@@ -7572,7 +7572,7 @@ msgstr "Kullanıcı çalışma alanının bir üyesi değildir."
 #. js-lingui-id: B43Kks
 #: src/engine/core-modules/auth/services/sign-in-up.service.ts
 msgid "User is not part of the workspace"
-msgstr "Kullanıcı çalışma alanının bir parçası değil"
+msgstr "Kullanıcı çalışma alanının bir üyesi değildir."
 
 #. js-lingui-id: siJgSI
 #: src/engine/core-modules/user/user.exception.ts

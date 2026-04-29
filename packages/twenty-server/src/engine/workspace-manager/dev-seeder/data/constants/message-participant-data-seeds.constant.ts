@@ -144,22 +144,22 @@ const CREATE_WORKSPACE_MEMBER_PARTICIPANT = (
       return {
         workspaceMemberId: WORKSPACE_MEMBER_ID,
         personId: personIds[0],
-        displayName: 'Tim Apple',
-        handle: 'tim@apple.dev',
+        displayName: 'Referansal Sales',
+        handle: 'sales@referansal.demo',
       };
     case WORKSPACE_MEMBER_DATA_SEED_IDS.JONY:
       return {
         workspaceMemberId: WORKSPACE_MEMBER_ID,
         personId: personIds[1] || personIds[0],
-        displayName: 'Jony Ive',
-        handle: 'jony@apple.dev',
+        displayName: 'CRM Ops',
+        handle: 'crm.ops@referansal.demo',
       };
     case WORKSPACE_MEMBER_DATA_SEED_IDS.PHIL:
       return {
         workspaceMemberId: WORKSPACE_MEMBER_ID,
         personId: personIds[2] || personIds[0],
-        displayName: 'Phil Schiller',
-        handle: 'phil@apple.dev',
+        displayName: 'TEAM Lead',
+        handle: 'team.lead@referansal.demo',
       };
     default:
       return {

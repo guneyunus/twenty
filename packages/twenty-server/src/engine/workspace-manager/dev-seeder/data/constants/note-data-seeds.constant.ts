@@ -52,87 +52,87 @@ export const NOTE_DATA_SEED_IDS = GENERATE_NOTE_IDS();
 
 const PERSON_NOTE_TEMPLATES = [
   {
-    title: 'Meeting Follow-up',
+    title: 'Silver uyelik basvuru notu',
     content:
-      'Great conversation today about potential collaboration opportunities. Next steps discussed include proposal review and timeline planning.',
+      'Online basvuru formu uzerinden geldi. Sektor, is tanimi ve hedef musteri bilgileri tamamlanacak; odeme ekrani Silver plana gore takip edilecek.',
   },
   {
-    title: 'Project Update Discussion',
+    title: 'Gold upgrade gorusmesi',
     content:
-      'Reviewed current project status and identified key deliverables for the upcoming quarter. Timeline adjustments may be needed.',
+      'Mevcut uye daha yuksek ilan ve iletisim limitleri icin Gold plana gecmek istiyor. Satis ekibi sozlesme ve odeme adimini takip edecek.',
   },
   {
-    title: 'Skills & Experience Review',
+    title: 'TEAM ziyaret basvurusu',
     content:
-      'Impressive background in technology and leadership. Strong potential for senior roles in upcoming projects.',
+      'Ziyaret edilecek takim ve katilim tipi secildi. Ziyaretci lideri uygun toplanti gununu onayladiktan sonra odeme bilgisi paylasilacak.',
   },
   {
-    title: 'Networking Connection',
+    title: 'Referans veren uye',
     content:
-      'Made connection at industry conference. Shared interests in digital transformation and innovation strategies.',
+      'Bu kisi yeni basvuru icin davet kaynagi olarak gorunuyor. Referans kalitesi ve kapali is katkisi satis gorunumunde takip edilecek.',
   },
   {
-    title: 'Interview Notes',
+    title: 'Supheli profil inceleme',
     content:
-      'Strong candidate with relevant experience. Technical skills align well with team requirements. Positive cultural fit assessment.',
+      'Red orani yuksek iletisim talepleri nedeniyle profil satis ekibinin gorunumune dustu. Bu yalnizca CRM takip notudur, uygulama moderasyonu backoffice tarafindadir.',
   },
   {
-    title: 'Performance Check-in',
+    title: 'Closed business dogrulama',
     content:
-      'Quarterly review completed. Exceeded targets in key areas. Discussed career development opportunities and growth plans.',
+      'Referans sonucu olusan is anonim kapali is olarak dogrulanacak. CRM tarafinda satis etkisi gorunur, kaynak veri Referansal API tarafinda kalir.',
   },
   {
-    title: 'Training & Development',
+    title: 'Akademi ilgisi',
     content:
-      'Completed certification program successfully. Ready to take on expanded responsibilities in the next phase.',
+      'Uye egitim videolari ve canli egitim haklari hakkinda bilgi istedi. Paket ve katilim ucreti satis firsatina baglandi.',
   },
   {
-    title: 'Client Relationship Notes',
+    title: 'Power partner eslesmesi',
     content:
-      'Long-standing professional relationship. Reliable partner for complex initiatives. High satisfaction ratings.',
+      'ReferansAI senaryosunda tamamlayici is ortagi olarak gorunuyor. Satis ekibi bu kaydi iliski gelistirme firsati olarak izleyecek.',
   },
 ];
 
 const COMPANY_NOTE_TEMPLATES = [
   {
-    title: 'Partnership Opportunity',
+    title: 'Kurumsal lead',
     content:
-      'Promising partnership potential identified. Complementary strengths in market reach and technical capabilities.',
+      'Kurumsal basvuru veya toplu uyelik ilgisi olustu. Account owner ilk degerlendirme ve teklif adimini takip edecek.',
   },
   {
-    title: 'Vendor Assessment',
+    title: 'TEAM chapter takibi',
     content:
-      'Comprehensive evaluation completed. Strong financial position and excellent service track record. Recommended for preferred vendor status.',
+      'Takim ziyareti ve uyelik basvurulari bu chapter uzerinden takip ediliyor. Sektor tekeli ve kapasite bilgisi uygulama tarafinda yonetilecek.',
   },
   {
-    title: 'Market Analysis',
+    title: 'Hedef musteri profili',
     content:
-      'Significant player in the industry with growing market share. Innovation-focused approach aligns with our strategic objectives.',
+      'Sirket hedef musteri ve sektor eslesmesi acisindan yuksek potansiyele sahip. CRM gorunumu satis onceligini gostermek icin kullanilir.',
   },
   {
-    title: 'Contract Negotiation',
+    title: 'Sozlesme ve KVKK onayi',
     content:
-      'Initial terms discussed. Competitive pricing structure proposed. Legal review scheduled for next phase.',
+      'Uyelik sozlesmesi, uzak mesafe satis sozlesmesi ve KVKK onaylari tamamlanmadan odeme kapatilmayacak.',
   },
   {
-    title: 'Technology Integration',
+    title: 'Tek yonlu CRM olayi',
     content:
-      'Advanced technology stack compatible with our systems. Implementation timeline estimated at 6-8 weeks.',
+      'Bu kayit Referansal domain olayinin Twenty CRM tarafina tek yonlu yansitilmis demo karsiligidir. Twenty kaynak sistem degildir.',
   },
   {
-    title: 'Due Diligence Report',
+    title: 'Odeme takibi',
     content:
-      'Financial health indicators positive. Strong leadership team and sustainable business model. Low risk assessment.',
+      'Silver, Gold veya Team Gold ucretlendirmesine gore odeme durumu satis ekibi tarafindan takip edilecek.',
   },
   {
-    title: 'Customer Success Story',
+    title: 'Kapali is etkisi',
     content:
-      'Excellent case study of successful digital transformation. Results exceeded expectations with 40% efficiency improvement.',
+      'Dogrulanmis kapali is satis panelinde ekonomik canlilik etkisini gostermek icin temsil edildi; kisi ve firma bilgileri uygulamada anonimlestirilecek.',
   },
   {
-    title: 'Industry Insights',
+    title: 'Ilan ve firsat akisi',
     content:
-      'Valuable perspective on market trends and future opportunities. Thought leadership in emerging technologies.',
+      'Hedefli ilan veya ortak satis cagrisi bu sirketle iliskili satis firsati olarak izlendi.',
   },
 ];
 

@@ -35,10 +35,10 @@ export type SeededEmptyWorkspacesIds =
 export const SEEDER_CREATE_WORKSPACE_INPUT = {
   [SEED_APPLE_WORKSPACE_ID]: {
     id: SEED_APPLE_WORKSPACE_ID,
-    displayName: 'Apple',
-    subdomain: 'apple',
-    inviteHash: 'apple.dev-invite-hash',
-    logo: 'https://twentyhq.github.io/placeholder-images/workspaces/apple-logo.png',
+    displayName: 'Referansal',
+    subdomain: 'referansal',
+    inviteHash: 'referansal.dev-invite-hash',
+    logo: '',
     activationStatus: WorkspaceActivationStatus.PENDING_CREATION, // will be set to active after default role creation
     isTwoFactorAuthenticationEnforced: false,
   },
